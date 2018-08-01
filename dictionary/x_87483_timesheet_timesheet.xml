@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Timesheet" max_length="40" name="x_87483_timesheet_timesheet" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Contract" max_length="32" name="contract" reference="x_87483_timesheet_contracts" type="reference"/>
+        <element label="Name" mandatory="true" max_length="80" name="name" type="string"/>
+        <element label="Total Efforts Spent" max_length="20" name="total_efforts_spent" read_only="true" type="decimal"/>
+        <index name="index">
+            <element name="contract"/>
+        </index>
+    </element>
+</database>

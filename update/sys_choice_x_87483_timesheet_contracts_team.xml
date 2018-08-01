@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="team" table="x_87483_timesheet_contracts" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>team</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Platforms</label>
+            <language>en</language>
+            <name>x_87483_timesheet_contracts</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-01 11:23:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7e965a1bdb2313006049dc50cf961932</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-01 11:23:37</sys_updated_on>
+            <value>Platforms</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>team</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>.Net AppDev</label>
+            <language>en</language>
+            <name>x_87483_timesheet_contracts</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-01 11:23:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f7a6921bdb2313006049dc50cf9619fa</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-01 11:24:15</sys_updated_on>
+            <value>.Net AppDev</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>team</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Actually AppDev</label>
+            <language>en</language>
+            <name>x_87483_timesheet_contracts</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-01 11:24:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c5d6d697db2313006049dc50cf9619c4</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-01 11:24:48</sys_updated_on>
+            <value>Actually AppDev</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>team</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Security</label>
+            <language>en</language>
+            <name>x_87483_timesheet_contracts</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-01 11:25:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>02f6d697db2313006049dc50cf9619c5</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-01 11:25:29</sys_updated_on>
+            <value>Security</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>team</element>
+            <name>x_87483_timesheet_contracts</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-01 11:23:20</sys_created_on>
+            <sys_id>6ba6121bdb2313006049dc50cf96195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>team</sys_name>
+            <sys_package display_value="Timesheet" source="x_87483_timesheet">2234d257db2313006049dc50cf961934</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Timesheet">2234d257db2313006049dc50cf961934</sys_scope>
+            <sys_update_name>sys_choice_x_87483_timesheet_contracts_team</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-01 11:23:20</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

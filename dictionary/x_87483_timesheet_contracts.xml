@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Contracts" max_length="40" name="x_87483_timesheet_contracts" type="collection">
+        <element label="Actual Hours" max_length="20" name="actual_hours" read_only="true" type="decimal"/>
+        <element label="Company" max_length="32" name="company" reference="core_company" type="reference"/>
+        <element label="Contract Hours" max_length="20" name="contract_hours" type="decimal"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" display="true" label="Team" mandatory="true" max_length="300" name="team" type="string">
+            <choice>
+                <element label="Platforms" sequence="1" value="Platforms"/>
+                <element label=".Net AppDev" sequence="2" value=".Net AppDev"/>
+                <element label="Actually AppDev" sequence="3" value="Actually AppDev"/>
+                <element label="Security" sequence="4" value="Security"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="company"/>
+        </index>
+    </element>
+</database>

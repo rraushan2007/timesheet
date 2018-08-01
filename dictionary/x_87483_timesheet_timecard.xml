@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Timecard" max_length="40" name="x_87483_timesheet_timecard" type="collection">
+        <element default="0" label="Friday" max_length="20" name="friday" type="decimal"/>
+        <element default="0" label="Monday" max_length="20" name="monday" type="decimal"/>
+        <element default="0" label="Saturday" max_length="20" name="saturday" type="decimal"/>
+        <element choice="3" default="Pending" label="State" max_length="40" name="state" type="string">
+            <choice>
+                <element label="Pending" sequence="1" value="Pending"/>
+                <element label="Submitted" sequence="2" value="Submitted"/>
+                <element label="Approved" sequence="3" value="Approved"/>
+                <element label="Rejected" sequence="4" value="Rejected"/>
+                <element label="Processed" sequence="5" value="Processed"/>
+            </choice>
+        </element>
+        <element default="0" label="Sunday" max_length="20" name="sunday" type="decimal"/>
+        <element default="0" label="Thursday" max_length="20" name="thursday" type="decimal"/>
+        <element label="Timesheet" max_length="32" name="timesheet" reference="x_87483_timesheet_timesheet" type="reference"/>
+        <element label="Total" max_length="20" name="total" type="decimal"/>
+        <element default="0" label="Tuesday" max_length="20" name="tuesday" type="decimal"/>
+        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <element default="0" label="Wednesday" max_length="20" name="wednesday" type="decimal"/>
+        <element label="Week Starts on" max_length="40" name="week_starts_on" type="glide_date"/>
+        <index name="index">
+            <element name="timesheet"/>
+        </index>
+        <index name="index2">
+            <element name="user"/>
+        </index>
+    </element>
+</database>
